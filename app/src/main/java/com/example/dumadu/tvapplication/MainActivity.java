@@ -16,6 +16,7 @@ package com.example.dumadu.tvapplication;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 /*
  * MainActivity class that loads MainFragment
@@ -29,5 +30,6 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.e("test", "this is test Log for github");
     }
 }
