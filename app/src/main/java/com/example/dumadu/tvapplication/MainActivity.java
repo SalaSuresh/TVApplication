@@ -31,5 +31,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("test", "this is test Log for github");
+        Log.e("test", "this is another test Log for github");
     }
 }
