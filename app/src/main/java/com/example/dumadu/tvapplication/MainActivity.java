@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Log.e("test", "this is test Log for github");
         Log.e("test", "this is another test Log for github");
-        Log.e("test", "ramakrishna v");
+        Log.e("test", "ramakrishna_v");
 
     }
 }
